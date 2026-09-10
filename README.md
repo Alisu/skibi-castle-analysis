@@ -18,6 +18,8 @@ game's own descriptive text.
 | `bosses.csv` | named bosses with hp, armour, bounty |
 | `armour_matrix.csv` | the WC3 armour × attack type multiplier grid the whole game runs on |
 | `game_modes.csv` | Classic / IMPOSSIBLE / Turbo / Mini-Game — lives, score multiplier, what each changes |
+| `minigames.csv` | every minigame reward — 21 games, ~79 rewards, with the `condition` that gates each one (wave band / player count / difficulty) |
+| `minigame_items.csv` | the collectables minigames drop, priced — the coin games name their coins for their worth (2–30g) |
 | `glossary/tower_traits.csv` | what each tower trait does, quoting the map's own ability description |
 | `glossary/wave_traits.csv` | what each wave modifier means |
 
@@ -30,9 +32,17 @@ extracted value is right: the hand capture had to guess attack cooldowns from th
 in-game speed words ("very rapid", "rapid"), and **those guesses were wrong by up to
 2.6×**, which is why the extraction exists.
 
-**A blank means unknown, not zero.** 39 tower traits are stock Warcraft III abilities
-the map never defines; those rows carry the raw ability id and an empty description
-rather than a guess. Waves 43–45 are literally `??` in the map author's own text.
+**A blank means unknown, not zero.** Waves 43–45 are literally `??` in the map
+author's own text, and five coin games say "+Small/Big Money" in their intro — though
+the coins themselves are priced in `minigame_items.csv`. All 104 tower traits carry
+the map's own description; three of those descriptions are empty in the file itself.
+
+**Minigame rewards are conditional.** A reward can be gated on the board wave number
+(most step at waves 10 and 20), on how many players are in the lobby (several
+high-value targets need 3+), and on the difficulty mode (both gold penalties exist
+only in IMPOSSIBLE). The `condition` column carries these; reading `gold` alone will
+misdescribe the game. Two award sites also **display one number and pay another** —
+`gold_text` says so where that happens.
 
 In `glossary/wave_traits.csv`, `derived_evidence` is **measured, not authored** — the
 map names its wave modifiers but never defines them, so each is characterised by

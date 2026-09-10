@@ -1,81 +1,81 @@
 trait,ability_id,defined_in_map,description,towers_using,example_towers,notes
 Splash,A021,yes,The tower's attacks splash when the missiles strike the enemy. The damage is distributed in the following radius from strongest to weakest: 50/100/150    Splash strikes air and ground units.,17,Orobos Slave; Frigid Dryad; Iron Mistress,
-Slow Poison I (Aspo),Aspo,no — owner's play notes,"Poison attack that damages and slows an organic enemy. Tier I of the ladder above Slow Poison II (36 dps, 40% slow) and III (250 dps, 65%); its own damage and slow values are not yet read from the game. All poison types stack with each other.",16,Spear Guard; Myrkridon Trow; War Beast,"stock Warcraft III ability the map does not define; these values are the OWNER'S play notes (PLAYING_SKIBI.md + per-tower notes), not read from the file"
+Slow Poison I (Aspo),Aspo,yes,"A poison attack that deals 4 damage per second, and slows the target organic enemy's movement by 25%.   All poison types stacks with each other.",16,Spear Guard; Myrkridon Trow; War Beast,
 Air Critical Strike II,A006,yes,Gives a 50% chance to do 4 times normal damage on an attack. Crits against air units.,16,Tamed Game; Toxic Assassin; Frigid Dryad,
 Fortitude,A047,yes,This unit has above average hitpoints and armor when compared to other towers of its tier.,15,Bladesmith; Impervious Armor; Evolved Dweller,
-ANcl,ANcl,no,,13,Aspect of Cold; Arctic Blaster; Aspect of Fire,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
+Activate / Deactivate Mana Detection (ANcl),ANcl,yes,Toggles the mana bar display for this tower.,13,Aspect of Cold; Arctic Blaster; Aspect of Fire,
 Air Critical Strike I,A005,yes,Gives a 50% chance to do 1.5 times normal damage on an attack. Crits against air units.,12,Spear Guard; War Beast; The Pride of Moon Star,
 Versatile Critical Strike I,A004,yes,Gives a 35% chance to do 2.5 times normal damage on an attack. Crits against all units.,11,Axeman; General Ninpou; Quickshot,
 Boss Assassin I,A03D,yes,Deals 4x damage to heroes. Crits 50% of the time.,11,Myrkridon Trow; Hunter; Jailing Officer,
 Slow Poison II,A008,yes,"A vicious poison attack that deals 36 damage per second, and slows the target organic enemy's movement by 40%.   All poison types stacks with each other.",10,Axeman; Ruthless Warlord; Jailing Officer,
 Ground Critical Strike I,A003,yes,Gives a 35% chance to do 2 times normal damage on an attack. Crits against ground only.,8,Duke Burnify; Chibidevil; Stealth Maiden,
 Ground Splash,A01W,yes,The tower's attacks splash when the missiles strike the enemy. The damage is distributed in the following radius from strongest to weakest: 50/100/150    Splash strikes ground units only.,8,Grayson's Fort Buster; Xavier; Shrapnel Shooter,
-Frost I (Afra),Afra,no — owner's play notes,"Adds a cold effect to this unit's attacks that slows enemy units' movement speed. Tier I below Frost II (A002), which slows for 'a medium period of time'; tier I's own duration is not yet read from the game.",7,Shinobi; Orobos Slave; Impervious Armor,"stock Warcraft III ability the map does not define; these values are the OWNER'S play notes (PLAYING_SKIBI.md + per-tower notes), not read from the file"
+Frost I (Afra),Afra,yes,Adds a cold effect to this unit's attacks that slows enemy units' movement speed for a short period of time,7,Shinobi; Orobos Slave; Impervious Armor,
 Air Deficiency,A009,yes,"This unit cannot strike air units very efficiently, and deals only 25% damage on 50% of its attacks.",7,Mercurial Predator; Severe Trauma; Promontory Disruptor,
 Vindicator I,A02Y,yes,Gives a 50% chance to do 3.5 times normal damage on an attack. Crits against attacking units.,6,Orobos Slave; Iron Mistress; Cloud Buster,
 Vindicator II,A03C,yes,Gives a 50% chance to do 6 times normal damage on an attack. Crits against attacking units.,5,Peasant; Bladesmith; The Unborn,
 Vindicator III,A02Z,yes,Gives a 50% chance to do 10 times normal damage on an attack. Crits against attacking units.,5,Hylgion Militia; Impervious Armor; Severe Trauma,
 Uber Splash,A022,yes,The tower's attacks splash when the missiles strike the enemy. The damage is distributed in the following radius from strongest to weakest: 75/150/225    Splash strikes air and ground units.,5,The Unborn; Malachite Ward; Arcadia,
-AIm2,AIm2,no,,4,Aspect of Cold; Arctic Blaster; Chilly Bit Striker,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
+Cold Snap (AIm2),AIm2,yes,Restores this tower's MP completely.,4,Aspect of Cold; Arctic Blaster; Chilly Bit Striker,
 Combustion,A014,yes,Increases the tower's attack rate by up to 50% for 15 seconds.,4,Aspect of Fire; Scalding Tower; Fire Hydra,
-AIhb,AIhb,no,,4,Aspect of Lightning; Electrocutioner; Blood Wraith,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
+Electrify (AIhb),AIhb,yes,Restores this tower's spell cooldown.,4,Aspect of Lightning; Electrocutioner; Blood Wraith,
 Boss Assassin II,A00R,yes,Deals 8x damage to heroes. Crits 50% of the time.,4,Marksman; Ignatious; Astral Skibi,
-Bash I (ANbh),ANbh,no — owner's play notes,20% chance to deal +50 bonus damage and stun a non-hero ground creep for 1.5s.,4,Myrkridon Trow; Insurrectionist Trow; Tyr's Spirit,"stock Warcraft III ability the map does not define; these values are the OWNER'S play notes (PLAYING_SKIBI.md + per-tower notes), not read from the file"
+Bash I (ANbh),ANbh,yes,Gives a 20% chance that an attack will do 50 bonus damage and stun a non-hero ground creep for 1.5 seconds.,4,Myrkridon Trow; Insurrectionist Trow; Tyr's Spirit,
 Cure I,A03U,yes,Heals a target friendly tower for 1500 HP.  Cooldown = 50 seconds.,4,Frigid Dryad; The Pride of Moon Star; Slammer,
 Uber Ground Splash,A01X,yes,The tower's attacks splash when the missiles strike the enemy. The damage is distributed in the following radius from strongest to weakest: 75/150/225    Splash strikes ground units only.,4,Severe Trauma; Earth's Blood; Gigas Spike,
 Cure II,A03V,yes,Heals a target friendly tower for 2500 HP.   Cooldown = 35 seconds.,4,Delfino; Evolved Dweller; High Priest,
 Improved Ward,S001,yes,Increases the attack speed of this Ward by 20%.,4,Sapphire Ward; Purity Ward; Lilac Ward,
 Sacrifice,A07P,yes,"Sacrifice this tower, activating its on-death ability.",3,Mana Well; Phoenix Spawn; Unstable Flux,
 Weak Splash,A020,yes,The tower's attacks splash when the missiles strike the enemy. The damage is distributed in the following radius from strongest to weakest: 25/50/75    Splash strikes air and ground units.,3,Shinobi; Lasher; Baby Dragon Den,
-Bash II (ACbh),ACbh,no — owner's play notes,20% chance to deal +235 bonus damage and stun a non-hero ground creep for 2s.,3,Impervious Armor; Captain Bartlebee; Battleship Mackinaw,"stock Warcraft III ability the map does not define; these values are the OWNER'S play notes (PLAYING_SKIBI.md + per-tower notes), not read from the file"
+Bash II (ACbh),ACbh,yes,Gives a 20% chance that an attack will do 235 bonus damage and stun a non-hero ground creep for 2 seconds.,3,Impervious Armor; Captain Bartlebee; Battleship Mackinaw,
 Regeneration,A03W,yes,This tower regenerates 12 HP per second.,3,Quickshot; Cross Bow; Frankenstone,
 Frost II,A002,yes,Adds a cold effect to this unit's attacks that slows enemy units' movement speed for a medium period of time.,3,D-String; Apocalypse; Frozen Reaper,
 Machine Critical Strike,A03Y,yes,Gives a 40% chance to do 3 times normal damage on an attack. Crits against mechanical units only.,3,Xavier; Sewer Barge; Frankenstone,
 Slow Poison III,A00T,yes,"A poison attack that deals 250 damage per second, and slows the target organic enemy's movement by 65%.   All poison types stacks with each other.",2,Toxic Assassin; Peppy Bronzebeard,
-Hunter's Favor (ACcl),ACcl,no — owner's play notes,"A 3000-damage bolt that ricochets 14 times, losing 5% per bounce (3000 down to 1540): about 30,740 damage across 14 targets, averaging 2,196 each. Read in game 2026-09-10; absent from the map file. Owner wrote the name as both Favor and Fervor — unresolved. Cooldown and bounce range not read.",2,Mercurial Predator; Unrivaled Destroyer,"stock Warcraft III ability the map does not define; these values are the OWNER'S play notes (PLAYING_SKIBI.md + per-tower notes), not read from the file"
+Hunter's Fervor (ACcl),ACcl,yes,Hurls a devastating ray of power that ricochets off the first foe and strikes 14 others at 5% less power. Deals 3000 on the first strike.,2,Mercurial Predator; Unrivaled Destroyer,
 Versatile Critical Strike II,A01E,yes,Gives a 60% chance to do 2.75 times normal damage on an attack. Crits against all units.,2,Cross Bow; D-String,
-Aabr,Aabr,no,,2,Chibidevil; Poison Dragon,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
+(Dummy Ability - Life Steal) (Aabr),Aabr,yes,This tower's attack heals itself for a portion of damage dealt to enemy ground units.,2,Chibidevil; Poison Dragon,
 Air Critical Strike III,A00U,yes,Gives a 50% chance to do 7 times normal damage on an attack. Crits against air units.,2,Noir Heart; Shrine of Isis,
 Judgement,A00N,yes,Burns nearby enemy air units over time. Deals 100 damage per second.  Lasts 20 seconds.,2,High Priest; Martyr,
-ANhw,ANhw,no,,2,K Dig; Xavier,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
+H e aling Wave (ANhw),ANhw,yes,"Calls forth a wave of healing energy that bounces up to <ANhw,DataB1> times, healing <ANhw,DataA1> damage on the primary target.",2,K Dig; Xavier,
 Weak Ground Splash,A01V,yes,The tower's attacks splash when the missiles strike the enemy. The damage is distributed in the following radius from strongest to weakest: 25/50/75    Splash strikes ground units only.,2,K Dig; Machination,
-AHds,AHds,no,,2,Lilianna Mai; Astral Skibi,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
+D ivine Shield (AHds),AHds,yes,D ivine Shield,2,Lilianna Mai; Astral Skibi,
 Gravity Well,A00V,yes,Rips the fabric and essence from those that stand on the same ground as her ladyship. Enemy life is reduced by about 10% and movement speed permanently is cut by 5%. This damage cannot be prevented or reduced.,2,Lilianna Mai; Astral Skibi,
 Cure All,A00X,yes,Instantly heals the allies' buildings for 250.    Affects allied buildings.,2,Protection Ward; Roseate Ward,
 Tornado Shot,A00Q,yes,Summons 6 fast moving tornados whirling shrapnel and dust every second for 10 seconds.  Damages air units in a small area of effect for 100 damage.,2,Little Jack; Battleship Mackinaw,
-ACcw,ACcw,no,,1,Aspect of Cold,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
+Winter's Bite (ACcw),ACcw,yes,"Adds 54 cold damage to an attack and slows target, but drains mana with each shot fired.",1,Aspect of Cold,
 Arctic Blast,A07S,yes,Blasts enemy units with a wave of frost that slows and damages nearby enemies for 120 damage.,1,Arctic Blaster,
-AHfa,AHfa,no,,1,Aspect of Fire,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
-ANbf,ANbf,no,,1,Scalding Tower,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
+Kiss of Flame (AHfa),AHfa,yes,"Adds 83 bonus fire damage to an attack against enemies, but drains mana with each shot fired.",1,Aspect of Fire,
+Scald (ANbf),ANbf,yes,"Erupt a cone of fire at enemy units, dealing 110 damage. Max damage = 660.",1,Scalding Tower,
 Ball Lightning,A07R,yes,Hurls a bolt of electricity at target for 162 damage and jumps to strike 5 additional targets.,1,Aspect of Lightning,
-ANfl,ANfl,no,,1,Electrocutioner,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
+F orked Lightning (ANfl),ANfl,yes,"Calls forth a cone of lightning at a target enemy unit, hitting up to <ANfl,DataB1> enemy units for <ANfl,DataA1> damage.",1,Electrocutioner,
 Soothe Foundation,A080,yes,Restores 15 hit points to nearby friendly units in a very large radius.,1,Rebuilder,
-ANc1,ANc1,no,,1,Chilly Bit Striker,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
-Aamk,Aamk,no,,1,Freezing Field,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
-Aroc,Aroc,no,,1,Fire Hydra,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
-ANic,ANic,no,,1,Duke Burnify,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
-ANfd,ANfd,no,,1,Blood Wraith,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
+Chilly Bits Grade Peorth (ANc1),ANc1,yes,"Bombards an area with pure chaos, stunning enemies within an area for 1 second and dealing up to 800 damage.",1,Chilly Bit Striker,
+Freezing Field (Aamk),Aamk,yes,"Costs 30 mana per attack, else the Field will stop.   Freezing Field attacks deal 575 frost damage to nearby enemies and slows their movement rate and attack speed for 3 seconds.",1,Freezing Field,
+Fire Volley (Aroc),Aroc,yes,"Costs 6 mana per attack, else the Hydra will stop.   The fire hydra's attacks strike multiple enemies for 355 damage, maximum 1065 damage.",1,Fire Hydra,
+Burnify (ANic),ANic,yes,"Costs 6 mana per attack, else the Duke will stop.   Each attack made is enhanced with living flames that cling to the target. These flames add <ANic,DataA1> damage on the first attack, twice as much on the second attack, three times as much on the third attack, etc.  If a unit dies while under this effect, it is incinerated, causing up to <ANic,DataB1> damage to all nearby hostile units.",1,Duke Burnify,
+Super Shock (ANfd),ANfd,yes,Deals 18000 damage to target and completely heals the Blood Wraith.,1,Blood Wraith,
 Tsukikaze,A07T,yes,Hurts a bolt of electricity at target for 3700 damage and jumps to strike 10 additional targets.,1,Tsukikaze Warrior,
-Arpm,Arpm,no,,1,Mana Well,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
-Asth,Asth,no,,1,Mana Well,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
-Atru,Atru,no,,1,Phoenix Spawn,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
-Amgl,Amgl,no,,1,Phoenix Spawn,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
-AOr2,AOr2,no,,1,Unstable Flux,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
-ANca,ANca,no,,1,Unstable Flux,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
-Healing Aura (ACce),ACce,no — owner's play notes,"Heals itself and nearby towers for 2 HP. The tooltip states no radius; measured in game as LESS THAN 800 (owner 2026-09-10) — an upper bound, not the value. Counterplay to the Attackers wave modifier, which is what damages towers in the first place.",1,Village Medic,"stock Warcraft III ability the map does not define; these values are the OWNER'S play notes (PLAYING_SKIBI.md + per-tower notes), not read from the file"
-Life Boon (AEtq),AEtq,no — owner's play notes,"Heals 30 HP per second for 30 seconds — 900 HP total (owner read it in game 2026-09-10; described nowhere in the map file). Whether it is a self-heal or reaches other towers was not stated. Compare Healing Aura (ACce), the passive 2 HP version: this is 15x the rate but time-limited.",1,General Ninpou,"stock Warcraft III ability the map does not define; these values are the OWNER'S play notes (PLAYING_SKIBI.md + per-tower notes), not read from the file"
+Arpm,Arpm,yes,"Restores <Arpm,DataB1> mana to nearby friendly units in a 250 radius.",1,Mana Well,
+Upon Death - Mana Well (Asth),Asth,yes,"Upon death, the Mana Well will heal all nearby towers for 1000 HP.",1,Mana Well,
+Upon Death - Phoenix (Atru),Atru,yes,"Upon death, the Phoenix Spawn damages nearby enemies for 250 damage times the number of controlled Fire Reagents. This damage is not prevented by armor or abilities.",1,Phoenix Spawn,
+Phoenix Income (Amgl),Amgl,yes,You gain 1 gold for controlling this Phoenix Spawn after every Wave.,1,Phoenix Spawn,
+Electromagnetic Aura (AOr2),AOr2,yes,Decreases nearby non-boss enemy units' movement speed and attack rate by 5%.,1,Unstable Flux,
+Upon Death - Unstable Flux (ANca),ANca,yes,"Upon death, the Unstable Flux banishes nearby enemies for 12 seconds.   Banish turns enemies ethereal and slows their movement speed by 50% for 12 seconds. Ethereal creatures cannot attack, but they can cast spells and certain spells cast upon them will have a greater effect.",1,Unstable Flux,
+Healing Aura (ACce),ACce,yes,The Village Medic heals himself and nearby friendly towers for 2 hitpoints a second. Radius measured in game as under 800 (owner 2026-09-10); the tooltip states none.,1,Village Medic,
+Life Boon (AEtq),AEtq,yes,"Heals 30 HP per second for 30 seconds — 900 HP total. The map names this ability but leaves its description EMPTY, so the owner's in-game read (2026-09-10) is the only source.",1,General Ninpou,
 Cleaving Attack (A007),A007,yes,25% of this unit's damage strikes through the primary target to hurt all nearby enemies in a 200 radius.,1,Insurrectionist Trow,
 Ground Critical Strike II,A00A,yes,"The Destroyer possesses the heart of a lion, and has a 50% chance to deal 5x damage to ground enemies.",1,Unrivaled Destroyer,
-AIva,AIva,no,,1,Chibidevil,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
+AIva,AIva,yes,,1,Chibidevil,
 Supreme Ground Splash,A01Y,yes,The tower's attacks splash when the missiles strike the enemy. The damage is distributed in the following radius from strongest to weakest: 150/0/0    Splash strikes ground units only.,1,Promontory Disruptor,
 Air Slow Poison,A03X,yes,A non-lethal poison that slows the target organic air enemy's movement by 70%.   All poison types stacks with each other.,1,Ignatious,
-ACsh,ACsh,no,,1,Delphinus,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
+Moon Stone Cannon (ACsh),ACsh,yes,Matter evaporates when the potent forces of this attack strikes flesh. Deals 1250 damage to units in a line. Very fast cooldown.,1,Delphinus,
 Rail Driver,A00O,yes,Summons two ethereal hands to erupt from the earth that instantly kills a non-hero ground unit.,1,Delphinus,
 Vacuum Torpedo,A00P,yes,Fires a torpedo straight into the soft earth that implodes the ground. The ethereal force ripples from Delphinus dealing 150 points of damage and greatly slows ground enemies for 8 seconds.  Does not stack with Calamity.,1,Delphinus,
 Aviary Degeneration,A024,yes,Reduces the movement speed of nearby flying enemy units by 20%.,1,Shrine of Isis,
 Absolution,A00S,yes,Skibi's magical attack has a 50% chance to deal 25 times normal damage against non-boss enemy units.,1,Astral Skibi,
 Repel Aura,A03Q,yes,Decreases nearby attacking ground enemy units' attack rates by 20%.,1,Repel,
-AUcs,AUcs,no,,1,Foxfire Laser,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
+Foxfire Laser (AUcs),AUcs,yes,"Upon acquiring an enemy target, the Foxfire Laser will channel a ball of destructive energy inside itself and release it at violent speeds.  The attack strikes enemies in a line for 290 damage for a maximum of 5800.",1,Foxfire Laser,
 Slow Aura I,A03M,yes,Decreases nearby enemy units' movement speed by 5% and attack rate by 5%. This aura stacks with Slow Aura II.,1,Sapphire Ward,
 Supine Hex I,A01B,yes,This ward's power permanently reduces a non-hero enemy's movement speed by 7.    This curse stacks with itself.,1,Sapphire Ward,
 Slow Aura II,A03N,yes,Decreases nearby enemy units' movement speed by 10% and attack rate by 10%. This aura stacks with Slow Aura I.,1,Purity Ward,
@@ -85,9 +85,9 @@ Supreme Splash,A01Z,yes,The tower's attacks splash when the missiles strike the 
 Sloth II,A01A,yes,1/5th of this tower's attacks reduces a target creep's HP by 25% and permanently reduces movement speed by a large amount.    This curse stacks with itself.,1,Scarlet Ward,
 Missile Salvo I,A03R,yes,Fires a secondary volley of boulders that target nearby enemies.,1,Bombardment,
 Missile Salvo II,A03S,yes,Fires a secondary volley of missiles that target nearby enemies.,1,Interceptor Factory,
-ACmo,ACmo,no,,1,Kazaana,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
-AEsf,AEsf,no,,1,Star Buster,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
-AHad,AHad,no,,1,Protection Ward,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
+Fury of the Gods (ACmo),ACmo,yes,Calls down a storm of lightning to strike enemy units for 580 damage in a target area.  Lasts 10 seconds.,1,Kazaana,
+Starburst (AEsf),AEsf,yes,Calls down waves of falling stars that damage nearby enemy units in a huge radius. Each wave deals 1200 damage.  Cooldown = 15 seconds.,1,Star Buster,
+Toughness Aura I (AHad),AHad,yes,Gives 2 additional armor to nearby friendly towers. This aura stacks with Toughness Aura II.,1,Protection Ward,
 Toughness Aura II,A03P,yes,Gives 3 additional armor to nearby friendly towers. This aura stacks with Toughness Aura I.,1,Roseate Ward,
 Curse Boss I,A01H,yes,"Cuts at the heart of evil, and reduces an enemy boss's movement speed by a small portion.  This curse stacks with itself.",1,Lilac Ward,
 Curse Boss II,A01G,yes,"Cuts at the heart of evil, and reduces an enemy boss's movement speed by a medium portion.  This curse stacks with itself.",1,Malachite Ward,
@@ -96,10 +96,10 @@ Bash III,A02E,yes,Gives a 33% chance that an attack will do 1500 bonus damage an
 Improved Glacial Spike,S000,yes,Increases the attack speed of Glacial Spikes by 30%.,1,Glacial Spike,
 Collapse,A019,yes,"Strikes from underneath the ground with a terribly powerful tentacle, permanently lowering a non-hero ground unit's movement speed to the minimum amount.",1,Glacial Spike,
 Calamity,A00B,yes,"Slams the ground, dealing no damage to nearby ground units in a large radius, but slowing them for 15 seconds by 15%.  Does not stack with Vacuum Torpedo.",1,Apocalypse,
-AIha,AIha,no,,1,Magical Breakthrough,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
+Area Cure (AIha),AIha,yes,"Heals <AIha,DataA1> hit points to all friendly structures around the caster when used.",1,Magical Breakthrough,
 Prison of Ice,A02U,yes,Absolute Zero's attacks freezes a target enemy for 3.5 seconds. During that time the enemy cannot move or attack.,1,Absolute Zero,
-Apxf,Apxf,no,,1,Judgement Fire,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
-Amgr,Amgr,no,,1,Judgement Fire,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
-ACca,ACca,no,,1,Havocwing,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
+Apxf,Apxf,yes,,1,Judgement Fire,
+Phoenix Fire (Amgr),Amgr,yes,"Fires a stream of flame, lighting the primary target enemy on fire and burns it over time. Deals 50 damage a second for 5 seconds.",1,Judgement Fire,
+Thresh Arrow (ACca),ACca,yes,"When Havocwing attacks, she tightens the pressure her bow and releases it in a blazing path.  The attack strikes enemies in a line for 475 damage.",1,Havocwing,
 Air Barrage,A000,yes,Fires a secondary volley of death energy that target nearby enemies. Hits up to 7 targets in this manner and deals 1000 damage each.,1,Death Dragon,
 Death Strike,A001,yes,The Death Dragon's attack instantly kills a non-hero ground unit.,1,Death Dragon,
