@@ -1,6 +1,6 @@
 trait,ability_id,defined_in_map,description,towers_using,example_towers,notes
 Splash,A021,yes,The tower's attacks splash when the missiles strike the enemy. The damage is distributed in the following radius from strongest to weakest: 50/100/150    Splash strikes air and ground units.,17,Orobos Slave; Frigid Dryad; Iron Mistress,
-Aspo,Aspo,no,,16,Spear Guard; Myrkridon Trow; War Beast,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
+Slow Poison I (Aspo),Aspo,no — owner's play notes,"Poison attack that damages and slows an organic enemy. Tier I of the ladder above Slow Poison II (36 dps, 40% slow) and III (250 dps, 65%); its own damage and slow values are not yet read from the game. All poison types stack with each other.",16,Spear Guard; Myrkridon Trow; War Beast,"stock Warcraft III ability the map does not define; these values are the OWNER'S play notes (PLAYING_SKIBI.md + per-tower notes), not read from the file"
 Air Critical Strike II,A006,yes,Gives a 50% chance to do 4 times normal damage on an attack. Crits against air units.,16,Tamed Game; Toxic Assassin; Frigid Dryad,
 Fortitude,A047,yes,This unit has above average hitpoints and armor when compared to other towers of its tier.,15,Bladesmith; Impervious Armor; Evolved Dweller,
 ANcl,ANcl,no,,13,Aspect of Cold; Arctic Blaster; Aspect of Fire,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
