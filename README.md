@@ -11,6 +11,7 @@ game's own descriptive text.
 
 | Path | What |
 |---|---|
+| `caster_dps.csv` | sustained dps for towers with no basic attack (Arcane is 15/17) — mana-limited, computed from cooldown, mana cost and the tower's regen |
 | `heroes.csv` | the seven playable champions — five hero abilities each (four actives + one aura), with the game's own description |
 | `champions/*.csv` | one file per champion — every tower with exact cost, damage, cooldown, dps, range, armour/attack types, traits |
 | `champions/other_towers.csv` | towers present in the map that no champion file claims; the 3 attributable ones say which champion |

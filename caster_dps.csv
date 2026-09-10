@@ -1,0 +1,10 @@
+hero,tower,cost_gold,ability,damage_per_cast,targets,cooldown_s,mana_cost,mana_regen_s,limited_by,sustained_dps,sustained_dps_per_gold
+arcane,Arctic Blaster,30,Arctic Blast,120,1,0.85,17,5.64,mana,39.8,1.33
+arcane,Scalding Tower,35,Scald,110,1,0.6,5,2.15,mana,47.3,1.35
+arcane,Aspect of Lightning,15,Ball Lightning,162,6,7,50,2.5,mana,48.6,3.24
+arcane,Chilly Bit Striker,230,Chilly Bits Grade Peorth,800,1,2.5,95,6.89,mana,58.0,0.25
+arcane,Blood Wraith,270,Super Shock,18000,1,5,105,5,mana,857.1,3.17
+arcane,Tsukikaze Warrior,550,Tsukikaze,3700,11,6,225,7.5,mana,1356.7,2.47
+scarlet_knight,Foxfire Laser,235,Foxfire Laser,290,1,0.7,2,1.5,mana,217.5,0.93
+scarlet_knight,Kazaana,280,Fury of the Gods,580,1,20,,,cooldown,29.0,0.10
+tempest,Havocwing,230,Thresh Arrow,475,1,0.9,3,2,mana,316.7,1.38
