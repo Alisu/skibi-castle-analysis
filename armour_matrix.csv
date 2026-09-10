@@ -1,0 +1,21 @@
+armour_type_es,armour_type_en,attack_type,multiplier_pct,status,notes
+media,Medium,normal,125,OBSERVED,Owner corrected 2026-09-05: the 125% entry is NORMAL. My first reading put normal at 110%.
+media,Medium,hero,110,NEEDS CONFIRMATION,"With normal at 125%, the 110% in the owner's note most likely belongs to hero. If so the Royal Family is NOT penalised on Medium waves, which reverses what I wrote earlier. CONFIRM before use."
+media,Medium,magic,75,NEEDS CONFIRMATION,"Probably 75%, but the source note grouped ""magic/pierce/hero"" and hero appears to sit at 110%, so the grouping is unclear. CONFIRM."
+media,Medium,pierce,75,NEEDS CONFIRMATION,Same grouping ambiguity as magic.
+pesada,Heavy,magic,110,OBSERVED,Owner read 2026-09-05.
+pesada,Heavy,hero,110,OBSERVED,Owner read 2026-09-05.
+pesada,Heavy,all others,100,INFERRED,"The owner said only hero and magic are modified vs Heavy (""that's it""), so the rest are presumably unmodified. Not stated outright."
+reforzada,Fortified,siege,160,OBSERVED,The strongest multiplier recorded. Owner 2026-09-05.
+reforzada,Fortified,hero,50,OBSERVED,The harshest penalty recorded - halves hero-attack damage.
+reforzada,Fortified,all others,75,OBSERVED,"Includes normal, magic and pierce."
+ligera,Light,pierce,140,OBSERVED,Owner 2026-09-05.
+ligera,Light,magic,140,OBSERVED,The reason the anti-air kits are magic: Light is the armour on every air wave.
+ligera,Light,hero,110,OBSERVED,Owner 2026-09-05.
+ligera,Light,normal / siege,,NOT CAPTURED,Not stated; presumably 100% or lower.
+hero,Hero,hero,125,OBSERVED,Best into Hero armour - and the armour cycle puts Hero on every boss wave.
+hero,Hero,normal,95,OBSERVED,
+hero,Hero,siege,85,OBSERVED,
+hero,Hero,magic,75,OBSERVED,"Penalises the Tempest Hawk, which is 4/5 magic, on every boss wave."
+hero,Hero,pierce,75,OBSERVED,
+hero,Hero,spells,75,OBSERVED,SPELLS are their own damage category - first sighting of that as a type.

@@ -1,0 +1,18 @@
+name,unit_id,tier,cost_gold,food,upgrades_from,upgrades_to,traits,targets,atk1_min,atk1_max,atk1_mean,atk1_cooldown,atk1_range,atk1_type,atk1_dps,atk1_dps_per_gold_range_adj,atk2_min,atk2_max,atk2_mean,atk2_cooldown,atk2_range,atk2_type,atk2_dps,atk2_dps_per_gold_range_adj,splash_targets,armour_type,armour_value,hp,cost_lumber,atk1_weapon,atk1_base,atk1_dice,atk1_sides,atk1_type_resolved,base_unit,abilities,tooltip
+Aspect of Cold,h04F,1,0,0,,Arctic Blaster,ANcl; AIm2; ACcw,"air,enemies,ground,nonancient",,,,,,,,,,,,,,,,,,,0,1000,,,,,,,,,
+Arctic Blaster,h04C,2,30,0,Aspect of Cold,,ANcl; Arctic Blast; AIm2,"air,enemies,ground,nonancient",,,,,,,,,,,,,,,,,,,1,1250,,,,,,,,,
+Aspect of Fire,h03W,1,5,0,,Scalding Tower,ANcl; AHfa; Combustion,"air,enemies,ground,nonancient",,,,,,,,,,,,,,,,,,,0,1000,,,,,,,,,
+Scalding Tower,h03X,2,35,0,Aspect of Fire,,ANcl; Combustion; ANbf,"air,enemies,ground,nonancient",,,,,,,,,,,,,,,,,,,1,1250,,,,,,,,,
+Aspect of Lightning,h03R,1,15,0,,Electrocutioner,ANcl; Ball Lightning; AIhb,"air,enemies,ground,nonancient",,,,,,,,,,,,,,,,,,,0,1000,,,,,,,,,
+Electrocutioner,h042,2,40,0,Aspect of Lightning,,ANcl; AIhb; ANfl,"air,enemies,ground,nonancient",,,,,,,,,,,,,,,,,,,1,1250,,,,,,,,,
+Rebuilder,h03Y,1,10,0,,,ANcl; Soothe Foundation,,,,,,,,,,,,,,,,,,,,1,1250,,,,,,,,,
+Chilly Bit Striker,h043,1,230,0,,Freezing Field,ANcl; AIm2; ANc1,"air,enemies,ground,nonancient",,,,,,,,,,,,,,,,,,,2,1500,,,,,,,,,
+Freezing Field,h046,2,325,0,Chilly Bit Striker,,ANcl; Aamk; AIm2,"air,enemies,ground,nonancient",,,,,,,,,,,,,,,,,,,3,1750,,,,,,,,,
+Fire Hydra,h044,1,255,0,,Duke Burnify,ANcl; Combustion; Aroc,"air,enemies,ground,nonancient",355,355,355.0,0.5,1100,chaos,710.0,4.22,,,,,,,,,,,2,1500,0,missile,354,1,1,chaos,hhou,"ANcl,A014,Aroc,A028",Build Fire Hydra ( S ) - 255
+Duke Burnify,h03L,2,400,0,Fire Hydra,,ANcl; Combustion; ANic; Ground Critical Strike I,"air,enemies,ground,nonancient",239,242,240.5,0.5,1200,chaos,481.0,1.99,,,,,,,,,,,3,1750,0,missile,238,1,4,chaos,hhou,"ANcl,A014,ANic,A028,A003",U pgrade to Duke Burnify - 400
+Blood Wraith,h03Q,1,270,0,,Tsukikaze Warrior,ANcl; ANfd; AIhb,"air,enemies,ground,nonancient",,,,,,,,,,,,,,,,,,,2,1500,,,,,,,,,
+Tsukikaze Warrior,h03V,2,550,0,Blood Wraith,,ANcl; AIhb; Tsukikaze,"air,enemies,ground,nonancient",,,,,,,,,,,,,,,,,,,3,1750,,,,,,,,,
+Hybrid Tower,h03N,1,100,1,,,,,,,,,,,,,,,,,,,,,,,4,750,,,,,,,,,
+Mana Well,h049,1,25,0,,,Arpm; Sacrifice; Asth,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,
+Phoenix Spawn,h03K,1,30,0,,,Sacrifice; Atru; Amgl,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,
+Unstable Flux,h03M,1,35,0,,,Sacrifice; AOr2; ANca,,,,,,,,,,,,,,,,,,,,0,,,,,,,,,,
