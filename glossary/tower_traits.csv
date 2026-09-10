@@ -20,14 +20,14 @@ AIm2,AIm2,no,,4,Aspect of Cold; Arctic Blaster; Chilly Bit Striker,"stock Warcra
 Combustion,A014,yes,Increases the tower's attack rate by up to 50% for 15 seconds.,4,Aspect of Fire; Scalding Tower; Fire Hydra,
 AIhb,AIhb,no,,4,Aspect of Lightning; Electrocutioner; Blood Wraith,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
 Boss Assassin II,A00R,yes,Deals 8x damage to heroes. Crits 50% of the time.,4,Marksman; Ignatious; Astral Skibi,
-ANbh,ANbh,no,,4,Myrkridon Trow; Insurrectionist Trow; Tyr's Spirit,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
+Bash I (ANbh),ANbh,no — owner's play notes,20% chance to deal +50 bonus damage and stun a non-hero ground creep for 1.5s.,4,Myrkridon Trow; Insurrectionist Trow; Tyr's Spirit,"stock Warcraft III ability the map does not define; these values are the OWNER'S play notes (PLAYING_SKIBI.md + per-tower notes), not read from the file"
 Cure I,A03U,yes,Heals a target friendly tower for 1500 HP.  Cooldown = 50 seconds.,4,Frigid Dryad; The Pride of Moon Star; Slammer,
 Uber Ground Splash,A01X,yes,The tower's attacks splash when the missiles strike the enemy. The damage is distributed in the following radius from strongest to weakest: 75/150/225    Splash strikes ground units only.,4,Severe Trauma; Earth's Blood; Gigas Spike,
 Cure II,A03V,yes,Heals a target friendly tower for 2500 HP.   Cooldown = 35 seconds.,4,Delfino; Evolved Dweller; High Priest,
 Improved Ward,S001,yes,Increases the attack speed of this Ward by 20%.,4,Sapphire Ward; Purity Ward; Lilac Ward,
 Sacrifice,A07P,yes,"Sacrifice this tower, activating its on-death ability.",3,Mana Well; Phoenix Spawn; Unstable Flux,
 Weak Splash,A020,yes,The tower's attacks splash when the missiles strike the enemy. The damage is distributed in the following radius from strongest to weakest: 25/50/75    Splash strikes air and ground units.,3,Shinobi; Lasher; Baby Dragon Den,
-ACbh,ACbh,no,,3,Impervious Armor; Captain Bartlebee; Battleship Mackinaw,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
+Bash II (ACbh),ACbh,no — owner's play notes,20% chance to deal +235 bonus damage and stun a non-hero ground creep for 2s.,3,Impervious Armor; Captain Bartlebee; Battleship Mackinaw,"stock Warcraft III ability the map does not define; these values are the OWNER'S play notes (PLAYING_SKIBI.md + per-tower notes), not read from the file"
 Regeneration,A03W,yes,This tower regenerates 12 HP per second.,3,Quickshot; Cross Bow; Frankenstone,
 Frost II,A002,yes,Adds a cold effect to this unit's attacks that slows enemy units' movement speed for a medium period of time.,3,D-String; Apocalypse; Frozen Reaper,
 Machine Critical Strike,A03Y,yes,Gives a 40% chance to do 3 times normal damage on an attack. Crits against mechanical units only.,3,Xavier; Sewer Barge; Frankenstone,
