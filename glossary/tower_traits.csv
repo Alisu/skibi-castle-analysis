@@ -62,7 +62,7 @@ Atru,Atru,no,,1,Phoenix Spawn,"stock Warcraft III ability — not defined in thi
 Amgl,Amgl,no,,1,Phoenix Spawn,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
 AOr2,AOr2,no,,1,Unstable Flux,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
 ANca,ANca,no,,1,Unstable Flux,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
-ACce,ACce,no,,1,Village Medic,"stock Warcraft III ability — not defined in this map, so no description is available from the file"
+Healing Aura (ACce),ACce,no — owner's play notes,"Heals itself and nearby towers for 2 HP. The tooltip states no radius, so the range of 'nearby' is unknown. Counterplay to the Attackers wave modifier, which is what damages towers in the first place.",1,Village Medic,"stock Warcraft III ability the map does not define; these values are the OWNER'S play notes (PLAYING_SKIBI.md + per-tower notes), not read from the file"
 Life Boon (AEtq),AEtq,no — owner's play notes,NAME ONLY — seen on General Ninpou in game. Its effect has not been read; it is not described anywhere in the map file.,1,General Ninpou,"stock Warcraft III ability the map does not define; these values are the OWNER'S play notes (PLAYING_SKIBI.md + per-tower notes), not read from the file"
 A007,A007,yes,25% of this unit's damage strikes through the primary target to hurt all nearby enemies in a 200 radius.,1,Insurrectionist Trow,
 Ground Critical Strike II,A00A,yes,"The Destroyer possesses the heart of a lion, and has a 50% chance to deal 5x damage to ground enemies.",1,Unrivaled Destroyer,
