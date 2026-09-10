@@ -11,6 +11,7 @@ game's own descriptive text.
 
 | Path | What |
 |---|---|
+| `heroes.csv` | the seven playable champions — five hero abilities each (four actives + one aura), with the game's own description |
 | `champions/*.csv` | one file per champion — every tower with exact cost, damage, cooldown, dps, range, armour/attack types, traits |
 | `champions/other_towers.csv` | towers present in the map that no champion file claims; the 3 attributable ones say which champion |
 | `waves.csv` | every wave 1–44, one row per spawn slot (`main`, `a`, `b`) — hp, armour value + type, move type, speed, bounty |
