@@ -1,0 +1,27 @@
+game,internal,wave_band,measured_gold,ceiling_gold,players,note
+Frothing Phobia,Spider,early,30,,solo,survival ticks only at this band
+Light the Fuse,Warfare,early,30,,solo,~10 kills at Insane in the Membrane +3
+Ghostbusters,Ghost,early,40,,solo,25 ghost + 15 clean
+Excavation Site,Excavate,early,50,,solo,
+The Sky is Falling,Hide,early,50,60,solo,centre tile pays +1 per tick
+Crispy Zergling,Zerg,early,30,,solo,spawns 1+N coins per event
+Crispy Zergling,Zerg,early,60,,duo,the same game with a second player
+300 Blind Mice,Rat,early,60,,solo,uncapped throughput game
+Hungry Hungry Penguins,Peng,early,65,70,solo,UI under-reports the catfan by 5g
+Stuff on Fire,Stuff_on_Fire,early,65,,solo,"displayed 15 survival bonus actually pays 25, so ~75g real"
+Coin Grab Mania,Treas,mid,120,,solo,scripted at waves 9/19/29
+Shell Hunters,Turtle,mid,60,,solo,misses the 3-player Adamantium and Platinum turtles
+Tree Jacks,Tree,mid,60,,solo,chop 1g now vs bank lumber x3-5 at the end
+Dragon Loot,Dragon,mid,70,,solo,hunt-then-be-hunted; swingy
+The Obstacle Course,OB,10,70,,solo,scripted at wave 10; 35 per section + 35 flawless
+Bombarding Squad,Kill_Rein,mid,70,80,solo,2 x cart +10 (All)
+Micro Arena,Micro,15,72,,solo,scripted at wave 15; melee pays 2x ranged
+Shrapnel,Rock,mid,90,120,solo,
+Frothing Phobia,Spider,mid,117,100,solo,gains a killable target at wave 10 — a second income channel
+Catch the Bun Buns,Catch_Bun,25,120,,solo,scripted at wave 25
+Excavation Site,Excavate,late,130,,solo,~13 coins at the 10g tier
+The Obstacle Course,OB,20,150,,solo,scripted at wave 20; 50 per section + 50 flawless
+300 Blind Mice,Rat,late,70,90,solo,density and unit value both ramp
+Dragon Loot,Dragon,late,60,90,solo,realised fell while the ceiling rose — variance
+Shrapnel,Rock,late,190,,solo,highest measured; better coin tiers at every band
+Kandy Man,Kandy,12,,,solo,"owner: too hard — all-or-nothing, pays zero on a miss"

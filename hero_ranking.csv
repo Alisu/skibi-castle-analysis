@@ -1,0 +1,8 @@
+hero,towers,median_dps_per_gold,median_range,median_coverage_adj_eff,best_tower,best_tower_cost,best_tower_coverage_adj_eff,peak_dps,hero_abilities
+scarlet_knight,20,2.75,1300,8.56,Glacial Spike,935,45.85,13333,5
+royal_family,20,5.87,700,6.52,Martyr,260,41.27,6963,5
+ranger,19,5.11,800,5.82,Noir Heart,415,68.42,14924,5
+tempest,19,4.08,800,5.22,Jenovaroth,800,101.08,21686,5
+specialist,19,4.41,800,5.09,Apocalypse,800,28.28,7036,5
+arcane,8,2.05,725,2.82,Fire Hydra,255,6.41,1357,5
+military,19,9.59,125,0.59,Tamed Game,205,20.54,8932,5
