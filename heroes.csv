@@ -1,36 +1,36 @@
 hero,hero_name,unit_id,slot,ability_id,ability,description,buildable_towers
 royal_family,Royal Family,U007,1,A02D,Wargod's Blessing,Heals nearby towers 150 hitpoints and grants non-spellcasting towers a 40% bonus to damage for 5 seconds.,11
-royal_family,Royal Family,U007,2,A03Z,Reduce Charisma,"Permanently removes any beneficial aura from the targeted enemy hero, reduces movement speed by 50 and stuns for 2 seconds.  Deals 350 damage.",11
+royal_family,Royal Family,U007,2,A03Z,Reduce Charisma,"Permanently removes any beneficial aura from the targeted enemy hero, reduces movement speed by 50 and stuns for 2 seconds.|n|nDeals 350 damage.",11
 royal_family,Royal Family,U007,3,A036,Extinction,"Calls forth a cone of lightning at a target enemy unit, hitting up to 2 enemy units for 1000 damage.",11
-royal_family,Royal Family,U007,4,ANso,R aspweave - [ Level 4 ],"Wreaths an enemy hero in magical flames which cause damage 1250 damage every second, prevent the casting of spells, and reduce attack damage by 20%.  Lasts 9 seconds.",11
+royal_family,Royal Family,U007,4,ANso,Raspweave - [Level 4],"Wreaths an enemy hero in magical flames which cause damage 1250 damage every second, prevent the casting of spells, and reduce attack damage by 20%.|n|nLasts 9 seconds.",11
 royal_family,Royal Family,U007,5,AOae,Royal Aura,Decreases the movement speed and attack rate of enemy heroes by 8%.,11
-scarlet_knight,Scarlet Knight,U008,1,AUfu,Scarlet Fortification,Surrounds target friendly building in a wispy aura that boosts defensive armor by 1 and colds enemy melee attackers.  Lasts 45 seconds.,11
+scarlet_knight,Scarlet Knight,U008,1,AUfu,Scarlet Fortification,Surrounds target friendly building in a wispy aura that boosts defensive armor by 1 and colds enemy melee attackers.|n|nLasts 45 seconds.,11
 scarlet_knight,Scarlet Knight,U008,2,A039,Scarlet Curse,"Reduces the movement, attack, and damage capabilities by 32% of target enemy unit for 5 seconds.",11
 scarlet_knight,Scarlet Knight,U008,3,AOw2,Scarlet Slam,"Channel energy below, stunning nearby ground enemies underneath for 3.5 seconds.",11
-scarlet_knight,Scarlet Knight,U008,4,A040,Reverse Time,"After 3 seconds, enemies in a 400 area of effect from the point where this spell was originally cast will be sent randomly back to either of their spawning locations with restored HP and status.  Cooldown is 210 seconds.",11
+scarlet_knight,Scarlet Knight,U008,4,A040,Reverse Time,"After 3 seconds, enemies in a 400 area of effect from the point where this spell was originally cast will be sent randomly back to either of their spawning locations with restored HP and status.|n|nCooldown is 210 seconds.",11
 scarlet_knight,Scarlet Knight,U008,5,AIad,Devotion Aura,Bestows an additional 5 armor to nearby friendly towers.,11
-arcane,Arcane,U009,1,AEsb,Shatter,"Picks  frosted  non-boss enemies in a 500 radius and shatters them, killing them in the process.  Cooldown = 140 seconds.   Number of targets shattered equal to number of controlled Cold Reagents + 2.",11
-arcane,Arcane,U009,2,Awrh,Flame Crack,Stuns nearby ground enemies for 2 seconds and dazes them for 5 seconds.   Flame Crack also deals 200 spell damage times the number of controlled Fire Reagents.,11
-arcane,Arcane,U009,3,A07X,"25,000 Volts",Hurls a bolt of electricity at target for 1000 damage and jumps to strike 12 additional targets.   Lightning Reagents inheirit this spell and cast upon a random nearby target.,11
-arcane,Arcane,U009,4,AHab,Brilliance Aura (Passive) - [ Level 1 ],Brilliance Aura (Passive) - [ Level 1 ],11
+arcane,Arcane,U009,1,AEsb,Shatter,"Picks frosted non-boss enemies in a 500 radius and shatters them, killing them in the process. |nCooldown = 140 seconds. |n|nNumber of targets shattered equal to number of controlled Cold Reagents + 2.",11
+arcane,Arcane,U009,2,Awrh,Flame Crack,Stuns nearby ground enemies for 2 seconds and dazes them for 5 seconds. |n|nFlame Crack also deals 200 spell damage times the number of controlled Fire Reagents.,11
+arcane,Arcane,U009,3,A07X,"25,000 Volts",Hurls a bolt of electricity at target for 1000 damage and jumps to strike 12 additional targets. |n|nLightning Reagents inheirit this spell and cast upon a random nearby target.,11
+arcane,Arcane,U009,4,AHab,Brilliance Aura (Passive) - [Level 1],Brilliance Aura (Passive) - [Level 1],11
 arcane,Arcane,U009,5,Arsg,Mana Bomb,"Conjures a mana bomb that explodes after 5 seconds to deal huge elemental damage. While the mana bomb drops, there is 1 area colding effect.",11
-tempest,Tempest,U00A,1,A01O,Sky Devil,Binds a target enemy unit so it cannot move or attack and takes 20 damage per second.   Lasts 15 seconds.,11
-tempest,Tempest,U00A,2,A03J,Machine Buster,Completely destroys 1 non-hero mechanical enemy and awards you double bounty.   Cooldown = 60 seconds.,11
-tempest,Tempest,U00A,3,ANsi,Cyclonius,"Tosses a group of enemy ground units into the air, rendering them unable to move, attack or cast spells, and stopping others from attacking or casting on it.  Lasts 10 seconds.",11
-tempest,Tempest,U00A,4,AUdd,Life Ebb,Damages non-hero enemy units in its area of effect by 2% of its base hit points. Lasts 15 seconds.   Cooldown = 210 seconds.,11
+tempest,Tempest,U00A,1,A01O,Sky Devil,Binds a target enemy unit so it cannot move or attack and takes 20 damage per second. |n|nLasts 15 seconds.,11
+tempest,Tempest,U00A,2,A03J,Machine Buster,Completely destroys 1 non-hero mechanical enemy and awards you double bounty. |n|nCooldown = 60 seconds.,11
+tempest,Tempest,U00A,3,ANsi,Cyclonius,"Tosses a group of enemy ground units into the air, rendering them unable to move, attack or cast spells, and stopping others from attacking or casting on it. |nLasts 10 seconds.",11
+tempest,Tempest,U00A,4,AUdd,Life Ebb,Damages non-hero enemy units in its area of effect by 2% of its base hit points. Lasts 15 seconds. |n|nCooldown = 210 seconds.,11
 tempest,Tempest,U00A,5,Apmf,Roast Aura,Burns nearby enemy units for 350 points of damage every 2 seconds.,11
-specialist,Specialist,U00B,1,ACcr,Slow,Slows an enemy unit's movement speed and attack rate by 25%.   Lasts 20 seconds.,11
+specialist,Specialist,U00B,1,ACcr,Slow,Slows an enemy unit's movement speed and attack rate by 25%. |n|nLasts 20 seconds.,11
 specialist,Specialist,U00B,2,AHtb,Cog,"Hurls a greased cog at an enemy, dealing 150 damage and stunning it for 4 seconds.",11
 specialist,Specialist,U00B,3,A046,Sunshine,Restores 25 hit points to nearby friendly towers.,11
-specialist,Specialist,U00B,4,AUfn,Freezing Chemicals,"Nukes enemy units with a wave of frost that deals no damage, but colds for a long period of time.   Affects a medium radius.",11
-specialist,Specialist,U00B,5,AEah,Thorns Aura (Passive) - [ Level 1 ],"An aura that gives friendly nearby units a damage shield, which deals 120 damage back to melee enemy units.",11
-military,Military,U00D,1,A03I,Riot Juice,Increases a target friendly tower's attack rate by 45% for 30 seconds.   Does not work on towers with MP or basic Peasants.,11
+specialist,Specialist,U00B,4,AUfn,Freezing Chemicals,"Nukes enemy units with a wave of frost that deals no damage, but colds for a long period of time. |n|nAffects a medium radius.",11
+specialist,Specialist,U00B,5,AEah,Thorns Aura (Passive) - [Level 1],"An aura that gives friendly nearby units a damage shield, which deals 120 damage back to melee enemy units.",11
+military,Military,U00D,1,A03I,Riot Juice,Increases a target friendly tower's attack rate by 45% for 30 seconds. |n|nDoes not work on towers with MP or basic Peasants.,11
 military,Military,U00D,2,ANht,Warcry,The squire lets loose a blood curdling scream that reduces surrounding enemy creeps' armor by 2 and attack power by 10%.,11
 military,Military,U00D,3,A02B,Equip Peasant,"Completely heals and bestows a ""Military Peasant"" with 4 bonus damage.",11
 military,Military,U00D,4,A03H,Crossbow Trap,"Constructs a tiny immobile trap that awaits an enemy unit. When the crossbow trap fires, four crossbow traps appear and fire a powerful spell towards the enemy that deals 800 damage in a line.",11
-military,Military,U00D,5,ACac,Command Aura (Passive) - [ Level 1 ],Grants a 3% damage bonus to nearby friendly towers.  Does not work on towers with MP or basic Peasants.,11
-ranger,Ranger,U00E,1,A03E,Scent of the Prey,Reduces a target enemy unit's armor by 3.   Lasts 25 seconds.,11
+military,Military,U00D,5,ACac,Command Aura (Passive) - [Level 1],Grants a 3% damage bonus to nearby friendly towers.|n|nDoes not work on towers with MP or basic Peasants.,11
+ranger,Ranger,U00E,1,A03E,Scent of the Prey,Reduces a target enemy unit's armor by 3. |n|nLasts 25 seconds.,11
 ranger,Ranger,U00E,2,AEsh,Focus Poison,"Focuses nearby towers to attack the targeted organic enemy unit, dealing 70 initial damage, and half damage every second for 5 seconds.",11
 ranger,Ranger,U00E,3,A02A,Mind Scrambler,Stuns a target enemy for 2 seconds and maximizes their movement speed. Cooldown = 20 seconds.,11
-ranger,Ranger,U00E,4,A03K,Bounty,"Increases attack power and speed of a ""Ranger - Iron Mistress"" by 25%   Lasts 25 seconds.",11
-ranger,Ranger,U00E,5,AEar,Trueshot Aura (Passive) - [ Level 1 ],"An aura that gives friendly nearby non-casting towers <AEar,DataA1,%>% bonus damage to their ranged attacks.",11
+ranger,Ranger,U00E,4,A03K,Bounty,"Increases attack power and speed of a ""Ranger - Iron Mistress"" by 25% |n|nLasts 25 seconds.",11
+ranger,Ranger,U00E,5,AEar,Trueshot Aura (Passive) - [Level 1],"An aura that gives friendly nearby non-casting towers <AEar,DataA1,%>% bonus damage to their ranged attacks.",11
